@@ -32,8 +32,5 @@ sudo insmod hook.ko
 Lúc này, bạn có thể xem log kernel để bắt toàn bộ system call open và write được gọi bằng dmesg. Với những bản dmesg mới hơn, bạn có thể xem dmesg liên tục bằng cách gõ lệnh sau vào terminal
 $ dmesg -w
 
-Để xem dmesg liên tục trên những phiên bản cũ, bạn có thể chạy lệnh sau
-$ watch "dmesg | tail -20"
-
 Sau khi theo dõi hoàn tất và muốn gỡ cài đặt hook, bạn chạy lệnh sau
 $ sudo rmmod hook.ko
