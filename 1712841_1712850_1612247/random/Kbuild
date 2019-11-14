@@ -1,0 +1,3 @@
+KEXTRA_CFLAGS = -Wall
+
+obj-m       += source.o
