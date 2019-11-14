@@ -3,7 +3,7 @@ Mở terminal và chuyển thư mục hiện hành vào thư mục random. Sau �
 $ make
 
 Sau khi module được biên dịch xong, bạn có thể thêm module vào hệ thống
-sudo insmod driver.ko
+sudo insmod source.ko
 
 Sau khi module được thêm vào hệ thống, bạn có thể xem log kernel hệ thống bằng lệnh
 $ dmesg
@@ -16,7 +16,7 @@ Sau khi chạy được, bạn có thể nhấn phím Enter (hay Return) để �
 $ sudo ./test
 
 Để gỡ cài đặt module, bạn chạy lệnh
-$ sudo rmmod driver.ko
+$ sudo rmmod source.ko
 
 Nếu bạn muốn xem lại quá trình chạy của module, bạn có thể chạy dmesg để xem lại
 $ dmesg
