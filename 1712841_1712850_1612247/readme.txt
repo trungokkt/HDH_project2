@@ -12,7 +12,7 @@ $ dmesg
 $ gcc test.c -o test
 
 Sau đó, bạn nên chạy tệp thực thi dưới quyền root để có thể đọc được character driver một cách ổn định.
-Sau khi chạy được, bạn có thể nhấn phím Enter (hay Return) để đọc những số ngẫu được sinh ra trong module, nhấn một phím khác và sau đó Enter (hay Return) để thoát (hoặc Ctrl-C)
+Sau khi chạy được, bạn có thể nhấn phím Enter (hay Return) để đọc những số ngẫu được sinh ra trong module, để thoát nhấn Ctrl-C
 $ sudo ./test
 
 Để gỡ cài đặt module, bạn chạy lệnh
